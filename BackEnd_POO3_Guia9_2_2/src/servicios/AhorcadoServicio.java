@@ -41,7 +41,7 @@ Y también, guarda la cantidad de jugadas máximas y el valor que ingresó el us
         Ahorcado datos = new Ahorcado();
 
         System.out.println("Ingrese la palabra");
-        String pal = leer.nextLine();
+        String pal = leer.nextLine().toLowerCase();
 
         System.out.println("Ingrese la cantidad de jugadas maximas");
         datos.setCantJugadasMax(leer.nextInt());
@@ -70,7 +70,7 @@ Y también, guarda la cantidad de jugadas máximas y el valor que ingresó el us
         do {
             boolean result = false;
             System.out.println("Ingresar una letra de la palabra a adivinar");
-            String letra = leer.next();
+            String letra = leer.next().toLowerCase();
             for (int i = 0; i < datos.getPalabra().length; i++) {
                 if (datos.getPalabra()[i].equals(letra)) {
                     System.out.println("La letra ingresada se encuentra en la posición (" + (i + 1) + ")");
