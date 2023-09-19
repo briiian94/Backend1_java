@@ -1,0 +1,57 @@
+h1 {
+    color: cadetblue;
+}
+
+strong{
+    color: red;
+}
+
+.destacado {
+    color: orange;
+}
+#subtitulo {
+    color: blue;
+}
+
+em {
+    color: blue;
+    
+}
+
+a:link{
+    color:red;
+    text-decoration: underline;
+}
+.especial {
+    color:blueviolet;
+}
+
+table th.especial {
+    color: orange;
+  }
+  table strong{
+    color: orange;
+  }
+
+  table th{
+    color: red;
+  }
+  table td{
+    color: green;
+  }
+
+  table em{
+    color: green;
+  }
+div p{
+    color:olive;
+}
+
+div #especial{
+    color:fuchsia;
+}
+
+div a:link{
+    color: green;
+    text-decoration: underline;
+}

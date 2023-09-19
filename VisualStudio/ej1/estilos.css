@@ -1,0 +1,36 @@
+.titulo {
+    color:darkgoldenrod;
+}
+
+a:link{
+    color:lightcoral;
+}
+a:visited{
+    color: #ccc;;
+}
+a:hover{
+    color: white;
+    background-color: red;
+}
+a:active{
+    color: red;
+}
+
+p {
+    
+    font-size: 0.4cm;
+    font-family: arial, helvetica;
+    font-weight: normal;
+    }
+    h1 {
+    font-size: 1.7cm;
+    font-family: verdana, arial;
+    text-decoration: underline;
+    text-align: center;
+    
+    }
+    body {
+    background-color:dimgrey;
+    font-family: arial;
+    color: White;
+    }
